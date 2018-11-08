@@ -4,6 +4,7 @@
 
 - 源码使用Python2.7编写，由于版本比较过时，所以使用的3.6版本，修改了其中的一些BUG。
 - 自己没有采用tensorflow的框架，而是使用的Pytorch。自己也是刚刚开始学习这个框架。
+- 每个作业里面的.log文件是代码在服务器上运行时打印输出的信息，可以了解模型的运行信息。
 - 官方页面链接(含start code和solution) [link](http://web.stanford.edu/class/cs224n/syllabus.html) 
 - Pytorch教程链接 [link](https://github.com/chenyuntc/pytorch-book)
 - 参考了github上之前有人用Python2.7写的代码 [link](https://github.com/hankcs/CS224n)
@@ -21,8 +22,11 @@
 ![image](https://note.youdao.com/yws/api/personal/file/9B76525F990648D78CF5672C35992152?method=download&shareKey=d83c7ac9cf477342337d25030f857470)
 ![image](https://note.youdao.com/yws/api/personal/file/8A6B212F21714221A723386CEBA67B21?method=download&shareKey=9ed57f92161aa7f825a3a22ebba71229)
 
-- 感觉和官方的solution还是有点区别的
+- 自己的和官方的solution比还是有点区别
 
 #### 修改了的函数
 - 一些基础性的修改，比如print括号问题
 - utils.treebank.py下的sentence和sent_lables函数做了修改，原因是解码的问题。感觉自己的解决方式有点暴力，如果遇到有解码问题的句子就跳过。如果有更好的解决方式请联系我 ：)
+- 自己的代码写的有点乱希望各位看官不要介意 %>_<%
+
+# assigment two
