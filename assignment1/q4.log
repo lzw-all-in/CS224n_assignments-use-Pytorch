@@ -1,0 +1,511 @@
+nohup: ignoring input
+---------------get_data------------
+50
+Training for reg=0.000100
+Train accuracy (%): 39.325843
+Dev accuracy (%): 36.148955
+Test accuracy (%): 37.013575
+Training for reg=0.000115
+Train accuracy (%): 39.314139
+Dev accuracy (%): 36.148955
+Test accuracy (%): 36.968326
+Training for reg=0.000132
+Train accuracy (%): 39.314139
+Dev accuracy (%): 36.148955
+Test accuracy (%): 36.968326
+Training for reg=0.000152
+Train accuracy (%): 39.325843
+Dev accuracy (%): 36.148955
+Test accuracy (%): 37.013575
+Training for reg=0.000175
+Train accuracy (%): 39.325843
+Dev accuracy (%): 36.148955
+Test accuracy (%): 37.013575
+Training for reg=0.000201
+Train accuracy (%): 39.314139
+Dev accuracy (%): 36.148955
+Test accuracy (%): 37.013575
+Training for reg=0.000231
+Train accuracy (%): 39.325843
+Dev accuracy (%): 36.148955
+Test accuracy (%): 36.923077
+Training for reg=0.000266
+Train accuracy (%): 39.314139
+Dev accuracy (%): 36.148955
+Test accuracy (%): 36.968326
+Training for reg=0.000305
+Train accuracy (%): 39.302434
+Dev accuracy (%): 36.148955
+Test accuracy (%): 36.968326
+Training for reg=0.000351
+Train accuracy (%): 39.325843
+Dev accuracy (%): 36.148955
+Test accuracy (%): 36.923077
+Training for reg=0.000404
+Train accuracy (%): 39.325843
+Dev accuracy (%): 36.148955
+Test accuracy (%): 36.923077
+Training for reg=0.000464
+Train accuracy (%): 39.337547
+Dev accuracy (%): 36.148955
+Test accuracy (%): 36.923077
+Training for reg=0.000534
+Train accuracy (%): 39.314139
+Dev accuracy (%): 36.148955
+Test accuracy (%): 36.923077
+Training for reg=0.000614
+Train accuracy (%): 39.302434
+Dev accuracy (%): 36.148955
+Test accuracy (%): 36.968326
+Training for reg=0.000705
+Train accuracy (%): 39.337547
+Dev accuracy (%): 36.148955
+Test accuracy (%): 37.013575
+Training for reg=0.000811
+Train accuracy (%): 39.337547
+Dev accuracy (%): 36.148955
+Test accuracy (%): 37.013575
+Training for reg=0.000933
+Train accuracy (%): 39.360955
+Dev accuracy (%): 36.148955
+Test accuracy (%): 37.013575
+Training for reg=0.001072
+Train accuracy (%): 39.360955
+Dev accuracy (%): 36.148955
+Test accuracy (%): 36.968326
+Training for reg=0.001233
+Train accuracy (%): 39.349251
+Dev accuracy (%): 36.148955
+Test accuracy (%): 37.013575
+Training for reg=0.001417
+Train accuracy (%): 39.372659
+Dev accuracy (%): 36.148955
+Test accuracy (%): 36.968326
+Training for reg=0.001630
+Train accuracy (%): 39.360955
+Dev accuracy (%): 36.148955
+Test accuracy (%): 36.968326
+Training for reg=0.001874
+Train accuracy (%): 39.314139
+Dev accuracy (%): 36.058129
+Test accuracy (%): 37.013575
+Training for reg=0.002154
+Train accuracy (%): 39.314139
+Dev accuracy (%): 36.058129
+Test accuracy (%): 36.968326
+Training for reg=0.002477
+Train accuracy (%): 39.302434
+Dev accuracy (%): 36.058129
+Test accuracy (%): 36.923077
+Training for reg=0.002848
+Train accuracy (%): 39.360955
+Dev accuracy (%): 36.148955
+Test accuracy (%): 37.058824
+Training for reg=0.003275
+Train accuracy (%): 39.325843
+Dev accuracy (%): 36.058129
+Test accuracy (%): 36.923077
+Training for reg=0.003765
+Train accuracy (%): 39.360955
+Dev accuracy (%): 36.148955
+Test accuracy (%): 36.923077
+Training for reg=0.004329
+Train accuracy (%): 39.349251
+Dev accuracy (%): 36.148955
+Test accuracy (%): 36.877828
+Training for reg=0.004977
+Train accuracy (%): 39.360955
+Dev accuracy (%): 36.148955
+Test accuracy (%): 36.923077
+Training for reg=0.005722
+Train accuracy (%): 39.396067
+Dev accuracy (%): 36.058129
+Test accuracy (%): 37.013575
+Training for reg=0.006579
+Train accuracy (%): 39.360955
+Dev accuracy (%): 35.967302
+Test accuracy (%): 37.013575
+Training for reg=0.007565
+Train accuracy (%): 39.360955
+Dev accuracy (%): 35.967302
+Test accuracy (%): 36.968326
+Training for reg=0.008697
+Train accuracy (%): 39.384363
+Dev accuracy (%): 36.058129
+Test accuracy (%): 36.968326
+Training for reg=0.010000
+Train accuracy (%): 39.419476
+Dev accuracy (%): 36.058129
+Test accuracy (%): 36.968326
+Training for reg=0.011498
+Train accuracy (%): 39.396067
+Dev accuracy (%): 35.876476
+Test accuracy (%): 37.013575
+Training for reg=0.013219
+Train accuracy (%): 39.431180
+Dev accuracy (%): 35.785649
+Test accuracy (%): 36.968326
+Training for reg=0.015199
+Train accuracy (%): 39.431180
+Dev accuracy (%): 35.694823
+Test accuracy (%): 37.013575
+Training for reg=0.017475
+Train accuracy (%): 39.431180
+Dev accuracy (%): 35.694823
+Test accuracy (%): 36.968326
+Training for reg=0.020092
+Train accuracy (%): 39.384363
+Dev accuracy (%): 35.694823
+Test accuracy (%): 37.058824
+Training for reg=0.023101
+Train accuracy (%): 39.337547
+Dev accuracy (%): 35.876476
+Test accuracy (%): 37.104072
+Training for reg=0.026561
+Train accuracy (%): 39.360955
+Dev accuracy (%): 35.967302
+Test accuracy (%): 37.058824
+Training for reg=0.030539
+Train accuracy (%): 39.360955
+Dev accuracy (%): 36.148955
+Test accuracy (%): 37.104072
+Training for reg=0.035112
+Train accuracy (%): 39.442884
+Dev accuracy (%): 36.330609
+Test accuracy (%): 37.104072
+Training for reg=0.040370
+Train accuracy (%): 39.431180
+Dev accuracy (%): 36.603088
+Test accuracy (%): 37.058824
+Training for reg=0.046416
+Train accuracy (%): 39.419476
+Dev accuracy (%): 36.421435
+Test accuracy (%): 37.104072
+Training for reg=0.053367
+Train accuracy (%): 39.407772
+Dev accuracy (%): 36.512262
+Test accuracy (%): 37.194570
+Training for reg=0.061359
+Train accuracy (%): 39.454588
+Dev accuracy (%): 36.421435
+Test accuracy (%): 37.194570
+Training for reg=0.070548
+Train accuracy (%): 39.442884
+Dev accuracy (%): 36.512262
+Test accuracy (%): 37.104072
+Training for reg=0.081113
+Train accuracy (%): 39.384363
+Dev accuracy (%): 36.603088
+Test accuracy (%): 37.149321
+Training for reg=0.093260
+Train accuracy (%): 39.360955
+Dev accuracy (%): 36.148955
+Test accuracy (%): 37.013575
+Training for reg=0.107227
+Train accuracy (%): 39.360955
+Dev accuracy (%): 36.148955
+Test accuracy (%): 37.058824
+Training for reg=0.123285
+Train accuracy (%): 39.314139
+Dev accuracy (%): 36.148955
+Test accuracy (%): 37.013575
+Training for reg=0.141747
+Train accuracy (%): 39.267322
+Dev accuracy (%): 35.694823
+Test accuracy (%): 37.194570
+Training for reg=0.162975
+Train accuracy (%): 39.279026
+Dev accuracy (%): 35.603996
+Test accuracy (%): 37.149321
+Training for reg=0.187382
+Train accuracy (%): 39.232210
+Dev accuracy (%): 35.513170
+Test accuracy (%): 37.149321
+Training for reg=0.215443
+Train accuracy (%): 39.232210
+Dev accuracy (%): 35.513170
+Test accuracy (%): 37.058824
+Training for reg=0.247708
+Train accuracy (%): 39.161985
+Dev accuracy (%): 35.603996
+Test accuracy (%): 37.058824
+Training for reg=0.284804
+Train accuracy (%): 39.080056
+Dev accuracy (%): 35.603996
+Test accuracy (%): 37.013575
+Training for reg=0.327455
+Train accuracy (%): 39.033240
+Dev accuracy (%): 35.694823
+Test accuracy (%): 37.104072
+Training for reg=0.376494
+Train accuracy (%): 38.986423
+Dev accuracy (%): 35.694823
+Test accuracy (%): 37.194570
+Training for reg=0.432876
+Train accuracy (%): 39.056648
+Dev accuracy (%): 35.694823
+Test accuracy (%): 37.149321
+Training for reg=0.497702
+Train accuracy (%): 39.080056
+Dev accuracy (%): 35.694823
+Test accuracy (%): 37.058824
+Training for reg=0.572237
+Train accuracy (%): 39.091760
+Dev accuracy (%): 35.513170
+Test accuracy (%): 37.013575
+Training for reg=0.657933
+Train accuracy (%): 39.115169
+Dev accuracy (%): 35.694823
+Test accuracy (%): 37.104072
+Training for reg=0.756463
+Train accuracy (%): 39.115169
+Dev accuracy (%): 35.785649
+Test accuracy (%): 37.104072
+Training for reg=0.869749
+Train accuracy (%): 39.115169
+Dev accuracy (%): 35.694823
+Test accuracy (%): 37.104072
+Training for reg=1.000000
+Train accuracy (%): 39.103464
+Dev accuracy (%): 35.785649
+Test accuracy (%): 37.013575
+Training for reg=1.149757
+Train accuracy (%): 39.115169
+Dev accuracy (%): 35.785649
+Test accuracy (%): 36.923077
+Training for reg=1.321941
+Train accuracy (%): 39.068352
+Dev accuracy (%): 35.694823
+Test accuracy (%): 36.832579
+Training for reg=1.519911
+Train accuracy (%): 39.080056
+Dev accuracy (%): 35.694823
+Test accuracy (%): 36.651584
+Training for reg=1.747528
+Train accuracy (%): 38.974719
+Dev accuracy (%): 35.785649
+Test accuracy (%): 36.651584
+Training for reg=2.009233
+Train accuracy (%): 38.986423
+Dev accuracy (%): 35.967302
+Test accuracy (%): 36.696833
+Training for reg=2.310130
+Train accuracy (%): 38.904494
+Dev accuracy (%): 36.058129
+Test accuracy (%): 36.696833
+Training for reg=2.656088
+Train accuracy (%): 38.904494
+Dev accuracy (%): 36.148955
+Test accuracy (%): 36.606335
+Training for reg=3.053856
+Train accuracy (%): 38.904494
+Dev accuracy (%): 36.239782
+Test accuracy (%): 36.696833
+Training for reg=3.511192
+Train accuracy (%): 38.822566
+Dev accuracy (%): 36.330609
+Test accuracy (%): 36.832579
+Training for reg=4.037017
+Train accuracy (%): 38.752341
+Dev accuracy (%): 36.512262
+Test accuracy (%): 36.787330
+Training for reg=4.641589
+Train accuracy (%): 38.834270
+Dev accuracy (%): 36.603088
+Test accuracy (%): 36.696833
+Training for reg=5.336699
+Train accuracy (%): 38.728933
+Dev accuracy (%): 36.421435
+Test accuracy (%): 36.651584
+Training for reg=6.135907
+Train accuracy (%): 38.717228
+Dev accuracy (%): 36.239782
+Test accuracy (%): 37.104072
+Training for reg=7.054802
+Train accuracy (%): 38.553371
+Dev accuracy (%): 36.148955
+Test accuracy (%): 37.466063
+Training for reg=8.111308
+Train accuracy (%): 38.295880
+Dev accuracy (%): 36.058129
+Test accuracy (%): 37.511312
+Training for reg=9.326033
+Train accuracy (%): 38.190543
+Dev accuracy (%): 36.239782
+Test accuracy (%): 37.556561
+Training for reg=10.722672
+Train accuracy (%): 38.237360
+Dev accuracy (%): 36.512262
+Test accuracy (%): 37.375566
+Training for reg=12.328467
+Train accuracy (%): 38.132022
+Dev accuracy (%): 36.239782
+Test accuracy (%): 37.194570
+Training for reg=14.174742
+Train accuracy (%): 38.026685
+Dev accuracy (%): 36.239782
+Test accuracy (%): 37.104072
+Training for reg=16.297508
+Train accuracy (%): 37.874532
+Dev accuracy (%): 36.239782
+Test accuracy (%): 37.149321
+Training for reg=18.738174
+Train accuracy (%): 37.804307
+Dev accuracy (%): 36.421435
+Test accuracy (%): 36.787330
+Training for reg=21.544347
+Train accuracy (%): 37.710674
+Dev accuracy (%): 36.148955
+Test accuracy (%): 36.651584
+Training for reg=24.770764
+Train accuracy (%): 37.453184
+Dev accuracy (%): 36.239782
+Test accuracy (%): 36.515837
+Training for reg=28.480359
+Train accuracy (%): 37.359551
+Dev accuracy (%): 36.239782
+Test accuracy (%): 36.651584
+Training for reg=32.745492
+Train accuracy (%): 37.183989
+Dev accuracy (%): 36.330609
+Test accuracy (%): 36.380090
+Training for reg=37.649358
+Train accuracy (%): 37.137172
+Dev accuracy (%): 36.512262
+Test accuracy (%): 36.153846
+Training for reg=43.287613
+Train accuracy (%): 36.938202
+Dev accuracy (%): 36.239782
+Test accuracy (%): 36.289593
+Training for reg=49.770236
+Train accuracy (%): 36.750936
+Dev accuracy (%): 36.058129
+Test accuracy (%): 36.063348
+Training for reg=57.223677
+Train accuracy (%): 36.692416
+Dev accuracy (%): 35.785649
+Test accuracy (%): 36.063348
+Training for reg=65.793322
+Train accuracy (%): 36.481742
+Dev accuracy (%): 35.513170
+Test accuracy (%): 35.791855
+Training for reg=75.646333
+Train accuracy (%): 36.235955
+Dev accuracy (%): 35.149864
+Test accuracy (%): 35.701357
+Training for reg=86.974900
+Train accuracy (%): 36.142322
+Dev accuracy (%): 34.604905
+Test accuracy (%): 35.339367
+Training for reg=100.000000
+Train accuracy (%): 35.791199
+Dev accuracy (%): 34.786558
+Test accuracy (%): 35.022624
+
+=== Recap ===
+Reg		Train	Dev	Test
+1.00E-04	39.326	36.149	37.014
+1.15E-04	39.314	36.149	36.968
+1.32E-04	39.314	36.149	36.968
+1.52E-04	39.326	36.149	37.014
+1.75E-04	39.326	36.149	37.014
+2.01E-04	39.314	36.149	37.014
+2.31E-04	39.326	36.149	36.923
+2.66E-04	39.314	36.149	36.968
+3.05E-04	39.302	36.149	36.968
+3.51E-04	39.326	36.149	36.923
+4.04E-04	39.326	36.149	36.923
+4.64E-04	39.338	36.149	36.923
+5.34E-04	39.314	36.149	36.923
+6.14E-04	39.302	36.149	36.968
+7.05E-04	39.338	36.149	37.014
+8.11E-04	39.338	36.149	37.014
+9.33E-04	39.361	36.149	37.014
+1.07E-03	39.361	36.149	36.968
+1.23E-03	39.349	36.149	37.014
+1.42E-03	39.373	36.149	36.968
+1.63E-03	39.361	36.149	36.968
+1.87E-03	39.314	36.058	37.014
+2.15E-03	39.314	36.058	36.968
+2.48E-03	39.302	36.058	36.923
+2.85E-03	39.361	36.149	37.059
+3.27E-03	39.326	36.058	36.923
+3.76E-03	39.361	36.149	36.923
+4.33E-03	39.349	36.149	36.878
+4.98E-03	39.361	36.149	36.923
+5.72E-03	39.396	36.058	37.014
+6.58E-03	39.361	35.967	37.014
+7.56E-03	39.361	35.967	36.968
+8.70E-03	39.384	36.058	36.968
+1.00E-02	39.419	36.058	36.968
+1.15E-02	39.396	35.876	37.014
+1.32E-02	39.431	35.786	36.968
+1.52E-02	39.431	35.695	37.014
+1.75E-02	39.431	35.695	36.968
+2.01E-02	39.384	35.695	37.059
+2.31E-02	39.338	35.876	37.104
+2.66E-02	39.361	35.967	37.059
+3.05E-02	39.361	36.149	37.104
+3.51E-02	39.443	36.331	37.104
+4.04E-02	39.431	36.603	37.059
+4.64E-02	39.419	36.421	37.104
+5.34E-02	39.408	36.512	37.195
+6.14E-02	39.455	36.421	37.195
+7.05E-02	39.443	36.512	37.104
+8.11E-02	39.384	36.603	37.149
+9.33E-02	39.361	36.149	37.014
+1.07E-01	39.361	36.149	37.059
+1.23E-01	39.314	36.149	37.014
+1.42E-01	39.267	35.695	37.195
+1.63E-01	39.279	35.604	37.149
+1.87E-01	39.232	35.513	37.149
+2.15E-01	39.232	35.513	37.059
+2.48E-01	39.162	35.604	37.059
+2.85E-01	39.080	35.604	37.014
+3.27E-01	39.033	35.695	37.104
+3.76E-01	38.986	35.695	37.195
+4.33E-01	39.057	35.695	37.149
+4.98E-01	39.080	35.695	37.059
+5.72E-01	39.092	35.513	37.014
+6.58E-01	39.115	35.695	37.104
+7.56E-01	39.115	35.786	37.104
+8.70E-01	39.115	35.695	37.104
+1.00E+00	39.103	35.786	37.014
+1.15E+00	39.115	35.786	36.923
+1.32E+00	39.068	35.695	36.833
+1.52E+00	39.080	35.695	36.652
+1.75E+00	38.975	35.786	36.652
+2.01E+00	38.986	35.967	36.697
+2.31E+00	38.904	36.058	36.697
+2.66E+00	38.904	36.149	36.606
+3.05E+00	38.904	36.240	36.697
+3.51E+00	38.823	36.331	36.833
+4.04E+00	38.752	36.512	36.787
+4.64E+00	38.834	36.603	36.697
+5.34E+00	38.729	36.421	36.652
+6.14E+00	38.717	36.240	37.104
+7.05E+00	38.553	36.149	37.466
+8.11E+00	38.296	36.058	37.511
+9.33E+00	38.191	36.240	37.557
+1.07E+01	38.237	36.512	37.376
+1.23E+01	38.132	36.240	37.195
+1.42E+01	38.027	36.240	37.104
+1.63E+01	37.875	36.240	37.149
+1.87E+01	37.804	36.421	36.787
+2.15E+01	37.711	36.149	36.652
+2.48E+01	37.453	36.240	36.516
+2.85E+01	37.360	36.240	36.652
+3.27E+01	37.184	36.331	36.380
+3.76E+01	37.137	36.512	36.154
+4.33E+01	36.938	36.240	36.290
+4.98E+01	36.751	36.058	36.063
+5.72E+01	36.692	35.786	36.063
+6.58E+01	36.482	35.513	35.792
+7.56E+01	36.236	35.150	35.701
+8.70E+01	36.142	34.605	35.339
+1.00E+02	35.791	34.787	35.023
+
+Best regularization value: 4.04E-02
+Test accuracy (%): 37.058824
+usage: q4_sentiment.py [-h]
+q4_sentiment.py: error: unrecognized arguments: -pre
