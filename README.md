@@ -4,11 +4,12 @@
 
 - 源码使用Python2.7编写，由于版本比较过时，所以使用的3.6版本，修改了其中的一些BUG。
 - 自己没有采用tensorflow的框架，而是使用的Pytorch。自己也是刚刚开始学习这个框架。
+- assignment one的数据太大了，所以没有传。使用shell脚本就可以获得。
 - 每个作业里面的.log文件是代码在服务器上运行时打印输出的信息，可以了解模型的运行状态。
 - 官方页面链接(含start code和solution) [link](http://web.stanford.edu/class/cs224n/syllabus.html) 
 - Pytorch教程链接 [link](https://github.com/chenyuntc/pytorch-book)
 - 参考了github上之前有人用Python2.7写的代码 [link](https://github.com/hankcs/CS224n)
-- 课程笔记(五星举荐) [link](https://github.com/stanfordnlp/cs224n-winter17-notes)
+- 课程笔记(五星推荐) [link](https://github.com/stanfordnlp/cs224n-winter17-notes)
 - 欢迎和我一起讨论，自己也刚刚开始接触 : )
 ---
 
@@ -30,3 +31,12 @@
 - 自己的代码写的有点乱希望各位看官不要介意 %>_<%
 
 # assigment two
+- 自己修改后的模型文件名有个extention
+- 源代码为tensorflow写的，自己用pytorch全部改写了
+- utils文件下的代码，只做了一点点的修改，主要是转化数据类型，几乎没有什么变化。
+- 由于随机的问题，可能结果会不太一样，但不会差太多。
+
+### 最终结果
+- .log的文件中看到原始模型 test UAS: 87.40  
+- 自己修改后的模型 test UAS: 88.95
+- 修改的模型：额外加入一个隐层，并将两个隐层的输出加入到最终softmax中(详情见代码 q2_parser_model_extension.py)
