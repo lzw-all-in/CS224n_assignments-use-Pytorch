@@ -15,6 +15,10 @@
 
 # assigment one
 
+#### 说明
+- 一些基础性的修改，比如print括号问题
+- utils.treebank.py下的sentence和sent_lables函数做了修改，原因是解码的问题。感觉自己的解决方式有点暴力：如果遇到有解码问题的句子就跳过。如果有更好的解决方式请联系我 ：)
+- 自己的代码写的有点乱希望各位看官不要介意 %>_<%
 ### word2vec
 
 ![image](https://note.youdao.com/yws/api/personal/file/A4A10D2E3BC04B2D8659417E9AAF8C0C?method=download&shareKey=b0fdede89f787b2f28a17e89c0be3b41)
@@ -23,14 +27,8 @@
 ![image](https://note.youdao.com/yws/api/personal/file/9B76525F990648D78CF5672C35992152?method=download&shareKey=d83c7ac9cf477342337d25030f857470)
 ![image](https://note.youdao.com/yws/api/personal/file/8A6B212F21714221A723386CEBA67B21?method=download&shareKey=9ed57f92161aa7f825a3a22ebba71229)
 
-- 自己的和官方的solution比还是有点区别
-
-#### 修改了的函数
-- 一些基础性的修改，比如print括号问题
-- utils.treebank.py下的sentence和sent_lables函数做了修改，原因是解码的问题。感觉自己的解决方式有点暴力：如果遇到有解码问题的句子就跳过。如果有更好的解决方式请联系我 ：)
-- 自己的代码写的有点乱希望各位看官不要介意 %>_<%
-
 # assigment two
+#### 说明
 - 自己修改后的模型文件名有个extention
 - 源代码为tensorflow写的，自己用pytorch全部改写了
 - utils文件下的代码，只做了一点点的修改，主要是转化数据类型，几乎没有什么变化。
