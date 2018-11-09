@@ -1,0 +1,78 @@
+nohup: ignoring input
+================================================================================
+INITIALIZING
+================================================================================
+Loading data...
+took 2.74 seconds
+Building parser...
+took 1.95 seconds
+Loading pretrained embeddings...
+took 3.05 seconds
+Vectorizing data...
+took 2.18 seconds
+Preprocessing training data...
+    1/39832 [..............................] - ETA: 0s39832/39832 [==============================] - 68s    
+Building model...
+took 0.02 seconds
+
+================================================================================
+TRAINING
+================================================================================
+Epoch 1 out of 10
+train loss :  0.1256561428308487
+Evaluating on dev set
+- dev UAS: 81.65
+
+Epoch 2 out of 10
+train loss :  0.10962039977312088
+Evaluating on dev set
+- dev UAS: 83.67
+
+Epoch 3 out of 10
+train loss :  0.11639610677957535
+Evaluating on dev set
+- dev UAS: 85.27
+
+Epoch 4 out of 10
+train loss :  0.10789258778095245
+Evaluating on dev set
+- dev UAS: 86.04
+
+Epoch 5 out of 10
+train loss :  0.06946036964654922
+Evaluating on dev set
+- dev UAS: 86.64
+
+Epoch 6 out of 10
+train loss :  0.07689221203327179
+Evaluating on dev set
+- dev UAS: 86.57
+
+Epoch 7 out of 10
+train loss :  0.08425719290971756
+Evaluating on dev set
+- dev UAS: 87.11
+
+Epoch 8 out of 10
+train loss :  0.06275153160095215
+Evaluating on dev set
+- dev UAS: 86.56
+
+Epoch 9 out of 10
+train loss :  0.05885889753699303
+Evaluating on dev set
+- dev UAS: 86.87
+
+Epoch 10 out of 10
+train loss :  0.060625795274972916
+Evaluating on dev set
+- dev UAS: 87.53
+
+================================================================================
+TESTING
+================================================================================
+Restoring the best model weights found on the dev set
+Final evaluation on test set
+- test UAS: 87.40
+Writing predictions
+Done!

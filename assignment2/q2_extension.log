@@ -1,0 +1,78 @@
+nohup: ignoring input
+================================================================================
+INITIALIZING
+================================================================================
+Loading data...
+took 2.65 seconds
+Building parser...
+took 1.57 seconds
+Loading pretrained embeddings...
+took 3.01 seconds
+Vectorizing data...
+took 2.20 seconds
+Preprocessing training data...
+    1/39832 [..............................] - ETA: 0s39832/39832 [==============================] - 68s    
+Building model...
+took 0.03 seconds
+
+================================================================================
+TRAINING
+================================================================================
+Epoch 1 out of 10
+train loss :  0.12267543375492096
+Evaluating on dev set
+- dev UAS: 82.84
+
+Epoch 2 out of 10
+train loss :  0.10089021921157837
+Evaluating on dev set
+- dev UAS: 84.83
+
+Epoch 3 out of 10
+train loss :  0.09823308140039444
+Evaluating on dev set
+- dev UAS: 86.20
+
+Epoch 4 out of 10
+train loss :  0.07589416205883026
+Evaluating on dev set
+- dev UAS: 87.05
+
+Epoch 5 out of 10
+train loss :  0.07818717509508133
+Evaluating on dev set
+- dev UAS: 87.19
+
+Epoch 6 out of 10
+train loss :  0.053123071789741516
+Evaluating on dev set
+- dev UAS: 87.47
+
+Epoch 7 out of 10
+train loss :  0.061588965356349945
+Evaluating on dev set
+- dev UAS: 87.68
+
+Epoch 8 out of 10
+train loss :  0.0917053371667862
+Evaluating on dev set
+- dev UAS: 88.01
+
+Epoch 9 out of 10
+train loss :  0.0676390752196312
+Evaluating on dev set
+- dev UAS: 87.90
+
+Epoch 10 out of 10
+train loss :  0.060810912400484085
+Evaluating on dev set
+- dev UAS: 88.46
+
+================================================================================
+TESTING
+================================================================================
+Restoring the best model weights found on the dev set
+Final evaluation on test set
+- test UAS: 88.95
+Writing predictions
+Done!
