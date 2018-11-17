@@ -229,6 +229,8 @@ def cbow(currentWord, C, contextWords, tokens, inputVectors, outputVectors,
 
     ### YOUR CODE HERE
     predicted_indices = [tokens[i] for i in contextWords]
+    # 在这里并没有进行取平均的操作，文档中没有这个要求，但是课程中在讲解CBOW时有提及
+    # 当然这里取平均之后也是可行的，亲测有效^_^
     predicted = np.sum(inputVectors[predicted_indices], axis=0)
     target = tokens[currentWord]
     cost, gradin, gradOut = word2vecCostAndGradient(predicted, target, outputVectors, dataset)
