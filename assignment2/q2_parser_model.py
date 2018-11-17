@@ -123,7 +123,7 @@ class ParserModel(Model):
         ### END YOUR CODE
         return embeddings
 
-    def add_prediction_op(self):
+    def add_prediction_op(self, is_train=True):
         """Adds the 1-hidden-layer NN:
             h = Relu(xW + b1)
             h_drop = Dropout(h, dropout_rate)
@@ -147,7 +147,7 @@ class ParserModel(Model):
         x = self.add_embedding()
         ### YOUR CODE HERE
         h = F.relu(t.mm(x, self.W) + self.b1)
-        h_drop = nn.Dropout(self.config.dropout)(h)
+        h_drop = F.dropout(h, self.config.dropout, training=is_train)
         pred = t.mm(h_drop, self.U) + self.b2 
         ### END YOUR CODE
         return pred
@@ -194,7 +194,6 @@ class ParserModel(Model):
         ### YOUR CODE HERE
         # Pytorch已经把L2正则化写入到了优化器里面，自己找了半天没有找到
         # 这里weight_decay就是l2的lambda
-        # 没有加入l2正则化是68，加入后是70
         train_op = opt.Adam([self.W, self.b1, self.U, self.b2,
                                  self.embedded.weight], lr=self.config.lr, weight_decay=self.config.labmda)
         ### END YOUR CODE
@@ -208,11 +207,7 @@ class ParserModel(Model):
         self.train_op.zero_grad()
         loss = self.add_loss_op(self.add_prediction_op())
         loss.backward()
-        # print(inputs_batch)
-        # print("embedding grad: ", self.embedded.weight.grad)
-        # print("embedding before ", self.embedded.weight)
         self.train_op.step()
-        # print("embedding after ", self.embedded.weight)
 
         return loss.item()
 
@@ -291,5 +286,4 @@ def main(debug=True):
 
 if __name__ == '__main__':
     main(debug=False)
-    # pass
 

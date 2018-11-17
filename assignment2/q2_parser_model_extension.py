@@ -126,7 +126,7 @@ class ParserModel(Model):
         ### END YOUR CODE
         return embeddings
 
-    def add_prediction_op(self):
+    def add_prediction_op(self, is_train=True):
         """Adds the 1-hidden-layer NN:
             h = Relu(xW + b1)
             h_drop = Dropout(h, dropout_rate)
@@ -150,9 +150,9 @@ class ParserModel(Model):
         x = self.add_embedding()
         ### YOUR CODE HERE
         h1 = F.relu(t.mm(x, self.W) + self.b1)
-        h1_drop = nn.Dropout(self.config.dropout)(h1)
+        h1_drop = F.dropout(h1, self.config.dropout, training=is_train)
         h2 = F.relu(t.mm(h1_drop, self.U) + self.b2)
-        h2_drop = nn.Dropout(self.config.dropout)(h2)
+        h2_drop = F.dropout(h2, self.config.dropout, training=is_train)
         z3 = t.cat((h2_drop, h1_drop), dim=1) 
         pred = t.mm(z3, self.V) + self.b3
         ### END YOUR CODE

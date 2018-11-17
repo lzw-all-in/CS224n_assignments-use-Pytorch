@@ -3,76 +3,76 @@ nohup: ignoring input
 INITIALIZING
 ================================================================================
 Loading data...
-took 2.74 seconds
+took 2.66 seconds
 Building parser...
-took 1.95 seconds
+took 1.57 seconds
 Loading pretrained embeddings...
-took 3.05 seconds
+took 2.98 seconds
 Vectorizing data...
-took 2.18 seconds
+took 2.17 seconds
 Preprocessing training data...
     1/39832 [..............................] - ETA: 0s39832/39832 [==============================] - 68s    
 Building model...
-took 0.02 seconds
+took 0.03 seconds
 
 ================================================================================
 TRAINING
 ================================================================================
 Epoch 1 out of 10
-train loss :  0.1256561428308487
+train loss :  0.129893496632576
 Evaluating on dev set
-- dev UAS: 81.65
+- dev UAS: 84.07
 
 Epoch 2 out of 10
-train loss :  0.10962039977312088
-Evaluating on dev set
-- dev UAS: 83.67
-
-Epoch 3 out of 10
-train loss :  0.11639610677957535
-Evaluating on dev set
-- dev UAS: 85.27
-
-Epoch 4 out of 10
-train loss :  0.10789258778095245
-Evaluating on dev set
-- dev UAS: 86.04
-
-Epoch 5 out of 10
-train loss :  0.06946036964654922
-Evaluating on dev set
-- dev UAS: 86.64
-
-Epoch 6 out of 10
-train loss :  0.07689221203327179
-Evaluating on dev set
-- dev UAS: 86.57
-
-Epoch 7 out of 10
-train loss :  0.08425719290971756
-Evaluating on dev set
-- dev UAS: 87.11
-
-Epoch 8 out of 10
-train loss :  0.06275153160095215
+train loss :  0.12157681584358215
 Evaluating on dev set
 - dev UAS: 86.56
 
-Epoch 9 out of 10
-train loss :  0.05885889753699303
+Epoch 3 out of 10
+train loss :  0.09281337261199951
 Evaluating on dev set
-- dev UAS: 86.87
+- dev UAS: 87.44
+
+Epoch 4 out of 10
+train loss :  0.08977598696947098
+Evaluating on dev set
+- dev UAS: 88.09
+
+Epoch 5 out of 10
+train loss :  0.0673772394657135
+Evaluating on dev set
+- dev UAS: 88.13
+
+Epoch 6 out of 10
+train loss :  0.06641937047243118
+Evaluating on dev set
+- dev UAS: 88.74
+
+Epoch 7 out of 10
+train loss :  0.07708559930324554
+Evaluating on dev set
+- dev UAS: 88.66
+
+Epoch 8 out of 10
+train loss :  0.0703699141740799
+Evaluating on dev set
+- dev UAS: 88.82
+
+Epoch 9 out of 10
+train loss :  0.059145133942365646
+Evaluating on dev set
+- dev UAS: 89.16
 
 Epoch 10 out of 10
-train loss :  0.060625795274972916
+train loss :  0.08071346580982208
 Evaluating on dev set
-- dev UAS: 87.53
+- dev UAS: 89.22
 
 ================================================================================
 TESTING
 ================================================================================
 Restoring the best model weights found on the dev set
 Final evaluation on test set
-- test UAS: 87.40
+- test UAS: 89.40
 Writing predictions
 Done!

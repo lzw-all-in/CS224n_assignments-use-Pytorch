@@ -111,7 +111,7 @@ class Model(object):
         self.inputs = t.from_numpy(inputs_batch).long()
         # 进行测试时不需要求梯度
         with t.no_grad():
-            predictions = self.add_prediction_op()
+            predictions = self.add_prediction_op(is_train=False)
         # 若上面没有关闭grad,则这里应使用detach，因为直接用numpy函数会损坏graph
         # 如果不需要求gradients,那么可以先使用detach函数
         # predictions.detach().numpy()
