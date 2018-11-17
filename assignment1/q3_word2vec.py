@@ -57,15 +57,16 @@ def softmaxCostAndGradient(predicted, target, outputVectors, dataset):
     """
 
     ### YOUR CODE HERE
-    #target是指公式中下标为o的那个，在skipgram
+    # target是指公式中下标为o的那个，在skipgram
     v_hat = predicted
     Pred = softmax(np.dot(outputVectors, v_hat))  #注意到每行代表一个词向量，与文档中恰好相反
     
     cost = -np.log(Pred[target])
     
     Pred[target] -= 1.
+    # 关于V的梯度
     gradPred = np.dot(outputVectors.T, Pred)
-    
+    # 关于U的梯度
     grad = np.outer(Pred, v_hat)
     
     ### END YOUR CODE
