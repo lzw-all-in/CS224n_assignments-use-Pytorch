@@ -128,10 +128,12 @@ class ParserModel(Model):
 
     def add_prediction_op(self, is_train=True):
         """Adds the 1-hidden-layer NN:
-            h = Relu(xW + b1)
-            h_drop = Dropout(h, dropout_rate)
-            pred = h_dropU + b2
-
+            h1 = Relu(xW + b1)
+            h1_drop = Dropout(h1, dropout_rate)
+            h2 = Relu(h1_dropU + b2)
+            h2_drop = Dropout(h2, dropout_rate)
+            z3 = concatenate(h2_drop, h1_drop)
+            pred = z3V + b3
         Note that we are not applying a softmax to pred. The softmax will instead be done in
         the add_loss_op function, which improves efficiency because we can use
         tf.nn.softmax_cross_entropy_with_logits
