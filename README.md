@@ -1,17 +1,25 @@
 # CS224n_assignments
 #### 这学期课程比较多，缓慢更新中~~~~~~~~~~~~~~~^_\^
+#### 目前在做CS224N的其中考试
+#### 视频看的是Youtube上的视频，感觉B站上翻译的不太好
+#### 欲速则不达哦~~~~~~~~
 ## 说明
 
 - 源码使用Python2.7编写，由于版本比较过时，所以使用的3.x版本(本地用的3.6，服务器用的3.5)，修改了其中的一些BUG。
 - 自己没有采用tensorflow的框架，而是使用的Pytorch。自己也是刚刚开始学习这个框架。
 - assignment one的数据太大了，所以没有传。使用shell脚本就可以获得。
-- 每个作业里面的.log文件是代码在服务器上运行时打印输出的信息，可以了解模型的运行状态。
-- 官方页面链接(含start code和solution) [link](http://web.stanford.edu/class/cs224n/syllabus.html) 
-- Pytorch教程链接 [link](https://github.com/chenyuntc/pytorch-book)
-- 参考了github上之前有人用Python2.7写的代码 [link](https://github.com/hankcs/CS224n)
-- 课程笔记(五星推荐) [link](https://github.com/stanfordnlp/cs224n-winter17-notes)
-- 欢迎和我一起讨论，自己也刚刚开始接触 : )
+- 每个作业里面的**.log文件**是代码在服务器上运行时打印输出的信息，可以了解模型的运行状态。
+- CS224n 2017和2018期中考试非常有价值
+
+资源名 | 资源链接
+---|---
+CS224n官方页面链接(含start code和solution还有各种参考资料) | [link](http://web.stanford.edu/class/cs224n/syllabus.html) 
+Pytorch教程 | [link](https://github.com/chenyuntc/pytorch-book)
+课程笔记(五星推荐) | [link](https://github.com/stanfordnlp/cs224n-winter17-notes)
+原版本参考代码(Python2.7 & tensorflow) | [link](https://github.com/hankcs/CS224n)
+最新版自然语言处理综论(Speech and Language Processing)| [link](http://web.stanford.edu/~jurafsky/slp3/)
 ---
+
 
 # assigment one
 
