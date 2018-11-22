@@ -44,12 +44,10 @@ print("sanity check: cost at convergence should be around or below 10")
 print("training took %d seconds" % (time.time() - startTime))
 
 # concatenate the input and output word vectors
-#V 和 U 合并的意义在哪里呢？
+# 这里将U,V合并，后面会进行奇异值分解
 wordVectors = np.concatenate(
     (wordVectors[:nWords,:], wordVectors[nWords:,:]),
     axis=0)
-
-print(wordVectors.shape)
 
 visualizeWords = [
     "the", "a", "an", ",", ".", "?", "!", "``", "''", "--",
@@ -60,9 +58,10 @@ visualizeWords = [
 visualizeIdx = [tokens[word] for word in visualizeWords]
 visualizeVecs = wordVectors[visualizeIdx, :]
 
-# PCA，采用SVD来实现的,PCA很重要的一点归一化
-temp = (visualizeVecs - np.mean(visualizeVecs, axis=0))
+# PCA，采用SVD来实现的,PCA很重要的一点中心化，均值为0
+0temp = (visualizeVecs - np.mean(visualizeVecs, axis=0))
 covariance = 1.0 / len(visualizeIdx) * temp.T.dot(temp)
+# SVD的左奇异矩阵恰好就是X.dot(X.T)的特征向量组成的矩阵，而这个矩阵的特征向量恰好就是PCA的主成分
 U,S,V = np.linalg.svd(covariance)
 coord = temp.dot(U[:,0:2])
 
