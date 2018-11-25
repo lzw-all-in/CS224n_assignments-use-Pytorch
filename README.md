@@ -1,18 +1,18 @@
 # CS224n_assignments
 #### 这学期课程比较多，缓慢更新中~~~~~~~~~~~~~~~^_\^
 #### 最近在做课程PJ，所以后面作业更新应该会等一段时间，目前学校的课自己打算做一个对知乎文章进行情感分类。自己数据已经爬取到了，还在等同学标数据( T___T ) 。目测会尝试朴素贝叶斯还有各种RNN的各种变体。做完后会一同传上来\ ( > < ) / 
-#### 视频看的是Youtube上的视频，感觉B站上翻译的不太好。By the way, Youtube上面多了一节期中考试的复习课，也很有用哦。学而时习之~~~~
-#### 学习这件事情不能急要慢慢来，欲速则不达哦p( ^ O ^ )q
+#### 视频看的是Youtube上的视频，感觉B站上翻译的不太好。并且存在字幕和声音不同步的现象。By the way, Youtube上面多了一节期中考试的复习课，也很有用哦。学而时习之~~~~
 ## 说明
-
+- 抱歉哈，之前一直不知道作业一的代码无法下载，原作业数据的百度网盘已经贴在下面了
 - 源码使用Python2.7编写，由于版本比较过时，所以使用的3.x版本(本地用的3.6，服务器用的3.5)，修改了其中的一些BUG。
 - 自己没有采用tensorflow的框架，而是使用的Pytorch。自己也是刚刚开始学习这个框架。
-- assignment one的数据太大了，所以没有传。使用shell脚本就可以获得。
+- 前端hijack
 - **.log** 文件是代码在服务器上运行时打印输出的信息，可以了解模型的运行状态。
 - CS224n 2017和2018期中考试非常有价值
 
 资源名 | 资源链接
 ---|---
+原作业数据(百度网盘) | [link](https://pan.baidu.com/s/1IXZXzHpm1MO19hl6TwSkcQ)
 CS224n官方页面链接(含start code和solution还有各种参考资料) | [link](http://web.stanford.edu/class/cs224n/syllabus.html) 
 Pytorch教程 | [link](https://github.com/chenyuntc/pytorch-book)
 课程笔记(五星推荐) | [link](https://github.com/stanfordnlp/cs224n-winter17-notes)
