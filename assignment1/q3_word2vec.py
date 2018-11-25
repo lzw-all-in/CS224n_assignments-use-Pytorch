@@ -87,7 +87,9 @@ def getNegativeSamples(target, dataset, K):
 
 # 注：自己这个函数写的太乱了，大家可以参考下我下面注释掉那个
 # 也可以去看自己举荐的那个2.7版本的solution,两者是一样的
-# 本来自己最开始想实现向量化运算，结果发现有重复的词，导致梯度只更改了一次
+# 本来自己最开始想实现向量化运算，结果发现有重复的词
+# 如果还是进行向量化运算那么即便单个词出现多次，其梯度也只更改了一次
+# 自己实际运行代码时采用的是后面注释掉的那个函数
 def negSamplingCostAndGradient(predicted, target, outputVectors, dataset,
                                K=10):
     """ Negative sampling cost function for word2vec models
