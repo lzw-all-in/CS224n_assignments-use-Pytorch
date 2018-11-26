@@ -10,6 +10,7 @@
 - 前端hijack
 - **.log** 文件是代码在服务器上运行时打印输出的信息，可以了解模型的运行状态。
 - CS224n 2017和2018期中考试非常有价值
+- 自己的代码写的有点乱希望各位看官不要介意 %>_<%
 
 资源名 | 资源链接
 ---|---
@@ -22,21 +23,15 @@ Pytorch教程 | [link](https://github.com/chenyuntc/pytorch-book)
 ---
 
 
-# assigment one
+# assignment one
 
 #### 说明
 - 一些基础性的修改，比如print括号问题
 - utils.treebank.py下的sentence和sent_lables函数做了修改，原因是解码的问题。感觉自己的解决方式有点暴力：如果遇到有解码问题的句子就跳过。如果有更好的解决方式请联系我 ：)
-- 自己的代码写的有点乱希望各位看官不要介意 %>_<%
-### word2vec
+- 作业一的运行后的图片转移到assignment1 下面去了
+- 模型最后的损失iter_ 40000: 9.386926(可在.log文件中查看)
 
-![image](https://note.youdao.com/yws/api/personal/file/A4A10D2E3BC04B2D8659417E9AAF8C0C?method=download&shareKey=b0fdede89f787b2f28a17e89c0be3b41)
-
-### sentiment
-![image](https://note.youdao.com/yws/api/personal/file/9B76525F990648D78CF5672C35992152?method=download&shareKey=d83c7ac9cf477342337d25030f857470)
-![image](https://note.youdao.com/yws/api/personal/file/8A6B212F21714221A723386CEBA67B21?method=download&shareKey=9ed57f92161aa7f825a3a22ebba71229)
-
-# assigment two
+# assignment two
 #### 说明
 - 自己修改后的模型的文件名有个extention的后缀
 - 源代码为tensorflow写的，自己用pytorch全部改写了
