@@ -1,7 +1,7 @@
 # 知乎文本情感分析 
 **说明**
 - 朴素贝叶斯伪代码参考文档 [http://web.stanford.edu/~jurafsky/slp3/4.pdf](http://web.stanford.edu/~jurafsky/slp3/4.pdf)
-- PJ所有数据链接 [https://pan.baidu.com/s/1XmlBDasLaIiQO04dMr2nPA](https://pan.baidu.com/s/1XmlBDasLaIiQO04dMr2nPA)
+- PJ所有数据链接 [https://pan.baidu.com/s/1XmlBDasLaIiQO04dMr2nPA](https://pan.baidu.com/s/1HVnhANtE8orCQ9dqb8DCog)
 - 从知乎上爬取了一些用户信息，还有一些文章，在课程的presetation上做了一些展示，感觉用户信息的数据分析网上已经很详细了，下面会贴一些网上没有的图
 - 上传文件中没有关于数据分析的文件，只是贴了2张我们觉得有意思的图
 - articles.csv里面存放的1000篇文章，target.csv里面存放我们人工打的标签
@@ -25,5 +25,7 @@
 ![image](https://note.youdao.com/yws/api/personal/file/33E5C5DBF8DB4C659E55171045C34FC7?method=download&shareKey=167e559f7814a0cd46563b5de133499f)
 
 ### Naive Bayes ROC曲线(90条数据)
-![image](https://note.youdao.com/yws/api/personal/file/52F0784BD7DB499C96E4349C00063800?method=download&shareKey=70af34ba9f39988e7cf12db14fe7bcfc)
+![image](https://note.youdao.com/yws/api/personal/file/55A8699DE8FD4B3C81ACF881C980CB94?method=download&shareKey=30cf9b0a4ca70a9ee1c706b2c80cd932)
 
+### LSTM，GRU，RNN训练过程中的损失值
+![image](https://note.youdao.com/yws/api/personal/file/A307602E250644AD8BE8F3B140512028?method=download&shareKey=703d3a3033a57ea17d657ecd3ffb5334)
