@@ -1,5 +1,5 @@
 # CS224n_assignments
-#### 这学期课程比较多，缓慢更新中~~~~~~~~~~~~~~~^_\^
+#### 最近要一直准备学校课程的期末考试(这学期十门课， 哭~~~)，第三个作业和课程默认的Final PJ应该会很后面才会更新。预测12月中旬更新第三个作业，Finnal PJ估计要1月份了
 #### 今天已经把PJ的初稿传上来了，趁着学习CS224n自己选了一个情感分析的题目。详情请见数据挖掘PJ文件说明
 #### 最近在做课程PJ，所以后面作业更新应该会等一段时间，目前学校的课自己打算做一个对知乎文章进行情感分类。自己数据已经爬取到了，还在等同学标数据( T___T ) 。
 #### 视频看的是Youtube上的视频，感觉B站上翻译的不太好。并且存在字幕和声音不同步的现象。By the way, Youtube上面多了一节期中考试的复习课，也很有用哦。学而时习之~~~~
@@ -15,6 +15,7 @@
 资源名 | 资源链接
 ---|---
 原作业数据(百度网盘) | [link](https://pan.baidu.com/s/1IXZXzHpm1MO19hl6TwSkcQ)
+课程的默认Final PJ页面 | [link](http://web.stanford.edu/class/cs224n/default_project/index.html)
 CS224n官方页面链接(含start code和solution还有各种参考资料) | [link](http://web.stanford.edu/class/cs224n/syllabus.html) 
 Pytorch教程 | [link](https://github.com/chenyuntc/pytorch-book)
 课程笔记(五星推荐) | [link](https://github.com/stanfordnlp/cs224n-winter17-notes)
