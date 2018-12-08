@@ -62,7 +62,6 @@ class ParserModel(Model):
         ### YOUR CODE HERE
         self.inputs = None
         self.labels = None
-        self.dropout = None
         # freze参数代表在训练中进不进行更新,False代表要更新
         xavier = xavier_weight_init()
         self.embedded = nn.Embedding.from_pretrained(t.from_numpy(self.pretrained_embeddings), freeze=False)
@@ -143,7 +142,10 @@ class ParserModel(Model):
         Returns:
             pred: tf.Tensor of shape (batch_size, n_classes)
         """
-
+        # 之所以把构建Embedding层的任务放在add_placeholders里面
+        # 就是因为这里每次训练都会调用add_embedding层，
+        # 如果将构建Embedding层的任务放在add_embedding里
+        # 那么会导致每次训练都会重新初始化embedding对象
         x = self.add_embedding()
         ### YOUR CODE HERE
         h = F.relu(t.mm(x, self.W) + self.b1)
@@ -193,7 +195,7 @@ class ParserModel(Model):
         """
         ### YOUR CODE HERE
         # Pytorch已经把L2正则化写入到了优化器里面，自己找了半天没有找到
-        # 这里weight_decay就是l2的lambda
+        # 这里weight_decay就是l2正则化的lambda
         train_op = opt.Adam([self.W, self.b1, self.U, self.b2,
                                  self.embedded.weight], lr=self.config.lr, weight_decay=self.config.labmda)
         ### END YOUR CODE
@@ -202,7 +204,7 @@ class ParserModel(Model):
     def train_on_batch(self, inputs_batch, labels_batch):
         self.inputs = t.from_numpy(inputs_batch)
         # 由于Pytorch的交叉熵传入的target需要是一维的索引变量
-        # 所以需要将one hot转变为索引
+        # 先转化为torch.int64再将one hot转变为索引，后面的[:, 1]是将二维降到一维
         self.labels = t.from_numpy(labels_batch).long().nonzero()[:, 1]
         self.train_op.zero_grad()
         loss = self.add_loss_op(self.add_prediction_op())

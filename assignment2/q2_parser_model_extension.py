@@ -63,7 +63,7 @@ class ParserModel(Model):
         self.inputs = None
         self.labels = None
         self.dropout = None
-        # freze参数代表在训练中进不进行更新
+        # freeze参数代表在训练中进不进行更新
         xavier = xavier_weight_init()
         self.embedded = nn.Embedding.from_pretrained(t.from_numpy(self.pretrained_embeddings), freeze=False)
         self.b1 = t.zeros((self.config.extension_size, ), requires_grad=True)

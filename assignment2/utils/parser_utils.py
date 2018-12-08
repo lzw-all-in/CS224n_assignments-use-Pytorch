@@ -367,7 +367,7 @@ def load_and_preprocess_data(reduced=True):
     for line in open(config.embedding_file).readlines():
         sp = line.strip().split()
         word_vectors[sp[0]] = [float(x) for x in sp[1:]]
-    # 现将所有词向量给随机化生成
+    # 现将所有词向量给随机化生成，均匀分布
     embeddings_matrix = np.asarray(np.random.normal(0, 0.9, (parser.n_tokens, 50)), dtype='float32')
 
     for token in parser.tok2id:
