@@ -101,9 +101,7 @@ not-O|	0.99 |	0.91 |	0.88 |	0.89
 **Entity level P/R/F1: 0.84/0.86/0.85**  
 
 ### q3
-dasd| dasdsa
---- | ---|
-d13| dwad|
+
 
 **Token-level confusion matrix:**  
 go\gu   |	PER     |	ORG     |	LOC    | 	MISC    |	O   
