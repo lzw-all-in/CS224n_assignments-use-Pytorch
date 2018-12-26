@@ -1,31 +1,30 @@
-# ÖªºõÎÄ±¾Çé¸Ğ·ÖÎö 
-**ËµÃ÷**
-- ÆÓËØ±´Ò¶Ë¹Î±´úÂë²Î¿¼ÎÄµµ [http://web.stanford.edu/~jurafsky/slp3/4.pdf](http://web.stanford.edu/~jurafsky/slp3/4.pdf)
-- PJËùÓĞÊı¾İÁ´½Ó [https://pan.baidu.com/s/1XmlBDasLaIiQO04dMr2nPA](https://pan.baidu.com/s/1HVnhANtE8orCQ9dqb8DCog)
-- ´ÓÖªºõÉÏÅÀÈ¡ÁËÒ»Ğ©ÓÃ»§ĞÅÏ¢£¬»¹ÓĞÒ»Ğ©ÎÄÕÂ£¬ÔÚ¿Î³ÌµÄpresetationÉÏ×öÁËÒ»Ğ©Õ¹Ê¾£¬¸Ğ¾õÓÃ»§ĞÅÏ¢µÄÊı¾İ·ÖÎöÍøÉÏÒÑ¾­ºÜÏêÏ¸ÁË£¬ÏÂÃæ»áÌùÒ»Ğ©ÍøÉÏÃ»ÓĞµÄÍ¼
-- ÉÏ´«ÎÄ¼şÖĞÃ»ÓĞ¹ØÓÚÊı¾İ·ÖÎöµÄÎÄ¼ş£¬Ö»ÊÇÌùÁË2ÕÅÎÒÃÇ¾õµÃÓĞÒâË¼µÄÍ¼
-- articles.csvÀïÃæ´æ·ÅµÄ1000ÆªÎÄÕÂ£¬target.csvÀïÃæ´æ·ÅÎÒÃÇÈË¹¤´òµÄ±êÇ©
-- ÎÒÃÇ°ÑÎÄÕÂ×öÁËÒ»ÏÂ¹ıÂË200×ÖÒ»ÏÂµÄ¶ªµôÁË£¬»¹Ê£916Æª
-- Ä¿Ç°ÈË¹¤´òÁË90¸ö±êÇ©(Ô­ÁÂÎÒÃÇ×éÖ»ÓĞÒ»¸öÈË¸ºÔğ±êÊı¾İ(¡É£ß¡É)) 
-- Ä¿Ç°ÊôÓÚÕ¼¿Ó°É£¬»áÂıÂı°ÑÕâ¸öÎÄ¼şÌîÂúµÄ(\*\^.\^\*) ~~~~³ÖĞø¸üĞÂÖĞ
+# çŸ¥ä¹æ–‡æœ¬æƒ…æ„Ÿåˆ†æ 
+**è¯´æ˜**
+- æœ´ç´ è´å¶æ–¯ä¼ªä»£ç å‚è€ƒæ–‡æ¡£ [http://web.stanford.edu/~jurafsky/slp3/4.pdf](http://web.stanford.edu/~jurafsky/slp3/4.pdf)
+- PJæ‰€æœ‰æ•°æ®é“¾æ¥ [https://pan.baidu.com/s/1qnyGIZUhLQpjZvKr3rR3Kg](https://pan.baidu.com/s/1qnyGIZUhLQpjZvKr3rR3Kg)
+- ä»çŸ¥ä¹ä¸Šçˆ¬å–äº†ä¸€äº›ç”¨æˆ·ä¿¡æ¯ï¼Œè¿˜æœ‰ä¸€äº›æ–‡ç« ï¼Œåœ¨è¯¾ç¨‹çš„presetationä¸Šåšäº†ä¸€äº›å±•ç¤ºï¼Œæ„Ÿè§‰ç”¨æˆ·ä¿¡æ¯çš„æ•°æ®åˆ†æç½‘ä¸Šå·²ç»å¾ˆè¯¦ç»†äº†ï¼Œä¸‹é¢ä¼šè´´ä¸€äº›ç½‘ä¸Šæ²¡æœ‰çš„å›¾
+- ä¸Šä¼ æ–‡ä»¶ä¸­æ²¡æœ‰å…³äºæ•°æ®åˆ†æçš„æ–‡ä»¶ï¼Œåªæ˜¯è´´äº†2å¼ æˆ‘ä»¬è§‰å¾—æœ‰æ„æ€çš„å›¾
+- articles.csvé‡Œé¢å­˜æ”¾çš„1000ç¯‡æ–‡ç« ï¼Œtarget.csvé‡Œé¢å­˜æ”¾æˆ‘ä»¬äººå·¥æ‰“çš„æ ‡ç­¾
+- æœ€åç”±äºæ—¶é—´å…³ç³»åªäººå·¥æ ‡æ³¨äº†400+ç¯‡
+
 ---
 
-> ÅÀÈ¡ÁËÄ³Ğ©°å¿éÏÂµÄ1000ÆªÎÄÕÂÓÃÀ´×ö´ÊÆµÍ³¼Æ
+> çˆ¬å–äº†æŸäº›æ¿å—ä¸‹çš„1000ç¯‡æ–‡ç« ç”¨æ¥åšè¯é¢‘ç»Ÿè®¡
 
-### ÉÏ½»°å¿éºÍ¸´µ©°å¿éÄ³Ğ©¹Ø¼ü´Ê´ÊÆµ¶Ô±È
+### ä¸Šäº¤æ¿å—å’Œå¤æ—¦æ¿å—æŸäº›å…³é”®è¯è¯é¢‘å¯¹æ¯”
 ![image](https://note.youdao.com/yws/api/personal/file/D2BBBA1E43F84F258CE44B0F8C24C997?method=download&shareKey=387e4f30fafb87697623426e8cbceaf2)
-**¾ªÆæ·¢ÏÖÎÒµ©±£ÑĞºÍ³ö¹úµÄ´ÊÆµ±ÈÉÏ½»ÒªÉÙ(Æü)**  
+**æƒŠå¥‡å‘ç°æˆ‘æ—¦ä¿ç ”å’Œå‡ºå›½çš„è¯é¢‘æ¯”ä¸Šäº¤è¦å°‘(æ³£)**  
 
-### ½«´ÊÆµ´Ó¸ßµ½µÍÅÅÁĞ£¬¶Ô±È²»Í¬°å¿éÏÂ¸ß´ÊÆµµÄ´ÊµÄÖØºÏ¶È
+### å°†è¯é¢‘ä»é«˜åˆ°ä½æ’åˆ—ï¼Œå¯¹æ¯”ä¸åŒæ¿å—ä¸‹é«˜è¯é¢‘çš„è¯çš„é‡åˆåº¦
 ![image](https://note.youdao.com/yws/api/personal/file/D1C089A948974ABCA49708879DAC2C85?method=download&shareKey=2b0bab8376030bb4ebafc4af57194216)
 
 ----
-> Ä£ĞÍÊı¾İ£¬Ä¿Ç°Ö»Ê¹ÓÃÁËÆÓËØ±´Ò¶Ë¹£¬ºóÃæ»á³¢ÊÔ¸÷ÖÖ±äÌåµÄRNN
-### Naive Bayes»ìÏı¾ØÕó(90ÌõÊı¾İ)
-![image](https://note.youdao.com/yws/api/personal/file/33E5C5DBF8DB4C659E55171045C34FC7?method=download&shareKey=167e559f7814a0cd46563b5de133499f)
+> æ¨¡å‹æ•°æ®
+### ACC(400+æ¡æ•°æ®)
+![image](https://note.youdao.com/yws/api/personal/file/A9DA21CAE3774324997330CB081E8E74?method=download&shareKey=9eee11a71d1f534334243ce73d2f5125)
 
-### Naive Bayes ROCÇúÏß(90ÌõÊı¾İ)
-![image](https://note.youdao.com/yws/api/personal/file/55A8699DE8FD4B3C81ACF881C980CB94?method=download&shareKey=30cf9b0a4ca70a9ee1c706b2c80cd932)
+### ROCæ›²çº¿(400+æ¡æ•°æ®)
+![image](https://note.youdao.com/yws/api/personal/file/45CC7BEEBE064A84BA45327AB32BCCB2?method=download&shareKey=86ec69792a93ae464b2c887dca3e3a14)
 
-### LSTM£¬GRU£¬RNNÑµÁ·¹ı³ÌÖĞµÄËğÊ§Öµ
-![image](https://note.youdao.com/yws/api/personal/file/A307602E250644AD8BE8F3B140512028?method=download&shareKey=703d3a3033a57ea17d657ecd3ffb5334)
+### LSTMï¼ŒGRUï¼ŒRNNè®­ç»ƒè¿‡ç¨‹ä¸­çš„æŸå¤±å€¼
+![image](https://note.youdao.com/yws/api/personal/file/F5FDE0CA9DCC4EC390603E8E0CE1BD9B?method=download&shareKey=a606aca65df0dca34ebf9a4589139132)
