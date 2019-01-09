@@ -1,9 +1,9 @@
-# CS224n_assignments
+﻿# CS224n_assignments
+#### 突然发现CS224n官方页面换成2019版的了，并且视频会在课程录制结束后上传。开心的是最近版的CS224n作业是使用的Pytorch编写~~不过目前还不知道视频什么时候上线 sad ~
+
 #### 已经把第三个作业传上来了，但是q3_gru.py文件没有进行编写，由于需要使用dynamic_rnn从而实现自动padding，而Pytorch没有这个模型，虽然也可以自己手动调用Pytorch的padding函数，不过实现起来太过费力，故选择放弃。
 
-#### 如果后面自己有时间应该会做一下官方的final_pj,不过应该是在一月份了。
-
-#### 数据挖掘文件夹下的是自己学校的PJ，做的关于知乎文章的情感分析。
+#### 数据挖掘文件夹下的是自己学校的PJ，做的关于知乎文章的情感分析
 
 #### 视频看的是Youtube上的视频，感觉B站上翻译的不太好。并且存在字幕和声音不同步的现象。By the way, Youtube上面多了一节期中考试的复习视频。学而时习之~~~~
 ## 说明
@@ -16,8 +16,7 @@
 资源名 | 资源链接
 ---|---
 原作业数据(百度网盘) | [link](https://pan.baidu.com/s/17ripXND-xSzzP4vgppseig)
-课程的默认Final PJ页面 | [link](http://web.stanford.edu/class/cs224n/default_project/index.html)
-CS224n官方页面链接(含start code和solution还有各种参考资料) | [link](http://web.stanford.edu/class/cs224n/syllabus.html) 
+2019 CS224n页面 | [link](http://web.stanford.edu/class/cs224n/)
 Pytorch教程 | [link](https://github.com/chenyuntc/pytorch-book)
 课程笔记(五星推荐) | [link](https://github.com/stanfordnlp/cs224n-winter17-notes)
 原版本参考代码(Python2.7 & tensorflow) | [link](https://github.com/hankcs/CS224n)
@@ -130,5 +129,4 @@ O    |	0.99 |	0.99 |	1.00 |	0.99
 micro|	0.99 |	0.98 |	0.98 |	0.98  
 macro|	0.99 |	0.92 |	0.90 |	0.91  
 not-O|	0.99 |	0.90 |	0.89 |	0.90   
-  
 **Entity level P/R/F1: 0.85/0.87/0.86**  
